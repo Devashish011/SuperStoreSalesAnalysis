@@ -1,0 +1,39 @@
+
+Sales Data Analysis Overview
+
+1. Product Category Analysis:
+- Highest Sales by Category:
+   - The "Technology" category has the highest total sales, indicating strong demand or successful products within this category.
+
+2. Regional Sales Distribution:
+- Top Performing Region:
+   - The West Region exhibits the highest sales, suggesting that the region has a higher customer base or more successful marketing efforts compared to others.
+
+3. Customer Type Analysis:
+- Average Quantity Sold:
+   - For Returning Customers: 3.81 units sold on average.
+   - For New Customers: 3.76 units sold on average.
+   - Insight: Returning customers, on average, purchase 0.0489 more units than new customers, which suggests a higher level of customer retention and potentially greater loyalty.
+
+4. Sales Trend Over Time:
+- Highest Sales Day:
+   - The highest sales occurred on March 18, 2014, with a total of $47,171.37.
+- Lowest Sales Day:
+   - The lowest sales occurred on September 28, 2017, with a total of $2.18.
+
+5. Outlier Detection:
+- Outlier Analysis:
+   - The highest value of $47,171.37 and lowest value of $2.18 show significant disparity when compared to the mean sales of $1,251.44.
+   - The gap between the mean and extreme sales values indicates the presence of outliers—specifically, high sales days that skew the overall average.
+
+6. Trimmed Mean Analysis:
+- To mitigate the impact of extreme values, we used a trimmed mean with a 10% trimming proportion:
+   - Trimmed Mean: $848.12
+   - Median Sales: $571.00
+
+   - Insight: Despite trimming, the mean still exceeds the median, which suggests that high-sales days continue to exert influence, and the sales data is not evenly distributed over time.
+
+Conclusion:
+- The analysis reveals that outliers (both extremely high and low sales) are affecting the overall mean, which can misrepresent the "typical" sales day.
+- The trimmed mean provides a more accurate reflection of sales trends, reducing the influence of extreme values.
+- Sales trends indicate skewed distribution, with higher sales days being much more frequent than low-sales days.
